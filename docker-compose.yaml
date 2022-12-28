@@ -1,9 +1,7 @@
 version: '3'
 services:
   flask:
-    build:
-      context: .
-      dockerfile: ./flask-backend
+    build: ./flask-backend
     container_name: flask-image-api
 
     env_file:
