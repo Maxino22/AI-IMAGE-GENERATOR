@@ -1,7 +1,7 @@
 from flask import Flask, render_template, make_response, Response
 from flask_restx import Api, Resource, reqparse
 from flask_cors import CORS
-
+import os
 
 import json
 import openai
