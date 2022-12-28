@@ -4,7 +4,7 @@ This is an AI Image Generator built with Vue Js , Flask and OpenAI Image Generat
 
 ## Project Info
 
-![AI Image Gen](https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png)
+![AI Image Gen](https://res.cloudinary.com/maxino/image/upload/v1672238263/assets/preview_melgix.png)
 
 [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
