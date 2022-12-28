@@ -9,6 +9,7 @@
 				<!-- size -->
 				<div class="form-control">
 					<select name="size" v-model="imageSize">
+						<option disabled value="small">Please select size</option>
 						<option value="small">Small</option>
 						<option value="medium" selected>Medium</option>
 						<option value="large">Large</option>
@@ -33,7 +34,7 @@ import { onMounted, ref } from 'vue'
 import ImageView from './ImageView.vue'
 
 const imagePrompt = ref('')
-const imageSize = ref('')
+const imageSize = ref('medium')
 const formError = ref(false)
 const showSpinner = ref(false)
 
