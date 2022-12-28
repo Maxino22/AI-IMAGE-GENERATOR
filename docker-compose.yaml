@@ -1,0 +1,14 @@
+version: '3'
+services:
+  flask:
+    build:
+      context: .
+      dockerfile: ./flask-backend
+    ports:
+      - '80:80'
+  vue:
+    build:
+      context: .
+      dockerfile: ./vue-frontend
+    ports:
+      - '8080:80'
