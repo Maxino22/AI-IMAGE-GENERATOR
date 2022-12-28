@@ -50,20 +50,17 @@ function onSubmit() {
 async function generateImageRequest() {
 	try {
 		viewSpinner()
-		const response = await fetch(
-			'https://flask-image-gen-api.onrender.com/generateimage',
-			{
-				method: 'POST',
-				headers: {
-					Accept: 'application/json',
-					'Content-Type': 'application/json',
-				},
-				body: JSON.stringify({
-					prompt: imagePrompt.value,
-					size: imageSize.value,
-				}),
-			}
-		)
+		const response = await fetch('https://ai.maxino.xyz', {
+			method: 'POST',
+			headers: {
+				Accept: 'application/json',
+				'Content-Type': 'application/json',
+			},
+			body: JSON.stringify({
+				prompt: imagePrompt.value,
+				size: imageSize.value,
+			}),
+		})
 
 		if (!response.ok) {
 			hideSpinner()
