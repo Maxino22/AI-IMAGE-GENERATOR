@@ -51,7 +51,7 @@ function onSubmit() {
 async function generateImageRequest() {
 	try {
 		viewSpinner()
-		const response = await fetch('https://ai.maxino.xyz', {
+		const response = await fetch('https://ai.maxino.xyz/generateimage', {
 			method: 'POST',
 			headers: {
 				Accept: 'application/json',
