@@ -7,7 +7,7 @@
 			<div class="nav-links">
 				<ul>
 					<li>
-						<a href="https://beta.openai.com/docs" target="_blank"
+						<a href="https://github.com/Maxino22/AI-IMAGE-GENERATOR" target="_blank"
 							>View Github</a
 						>
 					</li>
